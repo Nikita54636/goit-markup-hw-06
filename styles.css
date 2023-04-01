@@ -720,3 +720,42 @@ ul {
   display: flex;
   width: 100%;
 }
+
+/* modal-form */
+.modal-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.modal-input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 40px;
+  left: 0px;
+  top: 84px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding-left: 9px;
+}
+
+.modal-form-input-icon-1 {
+}
+
+.input-wrap {
+  position: relative;
+}
+
+.modal-input-logo1 {
+  width: 12px;
+  top: 3px;
+  padding-top: 30px;
+  left: 3px;
+  position: absolute;
+}
