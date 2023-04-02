@@ -746,6 +746,7 @@ ul {
 }
 
 .modal-form-input-icon-1 {
+  color: #4d5ae5;
 }
 
 .input-wrap {
@@ -817,6 +818,7 @@ ul {
   top: 50%;
   left: 0;
   margin-left: 16px;
+  color: #4d5ae5;
 }
 
 .modal-form-input-wraper {
@@ -842,6 +844,13 @@ ul {
 
 .modal-form-input:focus + .modal-form-input-icon .modal-form-input-icon-svg {
   fill: var(--accent-color);
+}
+
+.modal-form-input-icon-svg1 {
+  color: #4d5ae5;
+  width: 18px;
+  height: 18px;
+  transition: fill 250ms linear;
 }
 
 .modal-form-message {
