@@ -525,12 +525,12 @@ body {
   align-items: center;
   justify-content: center;
   font-family: var(--primery-font-family);
-  font-weight: 500;
-  font-size: 16px;
+  /* font-weight: 500;
+  font-size: 16px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: #404bbf;
   cursor: pointer;
   padding: 8px 24px;
   min-width: 169px;
@@ -556,7 +556,7 @@ body {
 }
 
 .subscribe-container {
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .subscribe-form-input:focus {

@@ -847,10 +847,11 @@ ul {
 }
 
 .modal-form-input-icon-svg1 {
-  color: #4d5ae5;
   width: 18px;
   height: 18px;
   transition: fill 250ms linear;
+  display: block;
+  fill: #4d5ae5;
 }
 
 .modal-form-message {
@@ -913,13 +914,12 @@ ul {
 
 .button-submit {
   align-self: center;
+  align-items: center;
   font-family: var(--primery-font-family);
-  font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: #404bbf;
   cursor: pointer;
   padding: 16px 32px;
   min-width: 169px;
@@ -927,6 +927,8 @@ ul {
   border-radius: 4px;
   border: 1px solid transparent;
   transition: background-color 250ms linear;
+  display: block;
+  margin: auto;
 }
 
 .button-submit:hover,
@@ -960,12 +962,12 @@ ul {
   align-items: center;
   justify-content: center;
   font-family: var(--primery-font-family);
-  font-weight: 500;
-  font-size: 16px;
+  /* font-weight: 500;
+  font-size: 16px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: #404bbf;
   cursor: pointer;
   padding: 8px 24px;
   min-width: 169px;
@@ -991,7 +993,7 @@ ul {
 }
 
 .subscribe-container {
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .subscribe-form-input:focus {
@@ -1036,26 +1038,6 @@ ul {
   letter-spacing: var(--primery-letter-spacing);
 }
 
-.subscribe-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--primery-font-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: var(--accent-color);
-  cursor: pointer;
-  padding: 8px 24px;
-  min-width: 169px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: 1px solid transparent;
-  transition: background-color 250ms linear;
-}
-
 .subscribe-button:hover,
 .subscribe-button:focus {
   background-color: #404bbf;
@@ -1095,4 +1077,28 @@ ul {
   letter-spacing: var(--primery-letter-spacing);
   color: #ffffff;
   margin-bottom: 16px;
+}
+.modal-form-input-icon {
+  display: block;
+  transform: translate(0, -50%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-left: 16px;
+}
+
+.modal-form-input-wraper {
+  position: relative;
+  display: block;
+}
+
+.modal-form-input-icon-svg {
+  fill: var(--secondary-text-color);
+  width: 18px;
+  height: 18px;
+  transition: fill 250ms linear;
+}
+
+.modal-form-input:focus {
+  border-color: var(--accent-color);
 }
