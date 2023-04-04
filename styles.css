@@ -837,10 +837,12 @@ ul {
   border-color: var(--accent-color);
 }
 
-/* .modal-form-field:focus-within>.modal-form-input-icon>.modal-form-input-icon-svg {
-    fill: var(--accent-color);
-    background-color: #4D5AE5;
-} */
+.modal-form-field:focus-within
+  > .modal-form-input-icon
+  > .modal-form-input-icon-svg {
+  fill: #4d5ae5;
+  background-color: #4d5ae5;
+}
 
 .modal-form-input:focus + .modal-form-input-icon .modal-form-input-icon-svg {
   fill: var(--accent-color);
