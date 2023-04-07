@@ -863,12 +863,12 @@ ul {
   padding: 10px 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  color: var(--primery-text-color);
-  font-family: var(--primery-font-family);
-  font-weight: var(--primery-font-weight);
+  color: rgba(46, 47, 66, 0.4);
+  font-family: "Roboto";
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: var(--primery-letter-spacing);
+  letter-spacing: 0.04em;
   outline: transparent;
   transition: border-color 250ms linear;
 }
