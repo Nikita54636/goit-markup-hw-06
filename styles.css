@@ -796,8 +796,8 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: #8e8f99;
-  margin-bottom: 8px;
-  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-top: 16px;
   display: block;
 }
 
@@ -889,6 +889,8 @@ ul {
   border: 1.25px solid #2e2f42;
   border-radius: 4px;
   margin-right: 8px;
+  margin-bottom: 24px;
+  margin-top: 16px;
 }
 
 .modal-form-check-descr {
@@ -957,6 +959,10 @@ ul {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: var(--primery-letter-spacing);
+}
+
+.subscribe-form-input:hover,
+.subscribe-form-input:focus {
 }
 
 .subscribe-button {
@@ -1048,6 +1054,10 @@ ul {
 .submit-icon {
   fill: #ffffff;
   margin-left: 16px;
+}
+
+.submit-icon:hover,
+.submit-icon:focus {
 }
 
 .decorative-subscribe {
