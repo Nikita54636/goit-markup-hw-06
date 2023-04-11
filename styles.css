@@ -681,13 +681,15 @@ ul {
   border-color: 1px solid rgba(0, 0, 0, 0.1);
   transition: opacity 250ms linear, visibility 250ms linear,
     cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #4d5ae5;
 }
-.modal-close:hover .svg-icon,
-.modal-close:focus .svg-icon {
+.modal-close:hover .svg-icon1,
+.modal-close:focus .svg-icon1 {
   border-color: 1px solid rgba(0, 0, 0, 0.1);
   transition: opacity 250ms linear, visibility 250ms linear,
     cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
+  fill: #4d5ae5;
 }
 
 .modal-close {
@@ -698,8 +700,8 @@ ul {
 }
 
 .svg-icon1 {
-  height: 18px;
-  width: 18px;
+  height: 24px;
+  width: 24px;
 }
 
 .menu-list-item1 {
