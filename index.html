@@ -446,12 +446,82 @@
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
-          <p class="modal-title">
-            Leave your contacts and we will call you back
-          </p>
-          <form class="modal-forms">
-            <label class="modal-form-field">
-              <span class="modal-form-input-desc">Name*</span>
+          <!-- /* 10/04 */ -->
+          <form class="booling__form">
+            <p class="modal-title">
+              Leave your contacts and we will call you back
+            </p>
+            <span class="booking__decorative-container">
+              <label class="modal-form-fild">
+                <span class="modal-form-input-desc">Name</span>
+                <span class="modal-form-input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    minlength="2"
+                    class="booking__input-area modal-form-input"
+                  />
+                  <span
+                    ><svg class="modal-form-icon">
+                      <use href="./images/icons.svg#icon-Vector"></use></svg
+                  ></span> </span></label
+              ><label class="modal-form-fild">
+                <span class="modal-form-input-desc">Phone</span>
+                <span class="modal-form-input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    minlength="2"
+                    class="booking__input-area modal-form-input"
+                  />
+                  <span
+                    ><svg class="modal-form-icon">
+                      <use href="./images/icons.svg#icon-Vector-1"></use></svg
+                  ></span> </span></label
+              ><label class="modal-form-fild">
+                <span class="modal-form-input-desc">Email</span>
+                <span class="modal-form-input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    minlength="2"
+                    class="booking__input-area modal-form-input"
+                  />
+                  <span
+                    ><svg class="modal-form-icon">
+                      <use href="./images/icons.svg#icon-Vector-2"></use>
+                    </svg>
+                  </span>
+                  <span class="modal-form-input-desc">Comment</span>
+                </span></label
+              >
+            </span>
+            <textarea
+              class="modal-form-message"
+              name="Text input"
+              placeholder="Text input"
+            ></textarea>
+            <input
+              class="modal-form-check modal-form-input modal-comment visually-hidden modal-form-fild booking__input-area"
+              id="user-policy"
+              type="checkbox"
+              name="accept"
+            />
+            <label for="user-policy" class="modal-form-check-descr"
+              >I accept the terms and conditions of the&nbsp;
+              <a href="">Privacy Policy</a>
+            </label>
+            <button class="booking__btn button-submit" type="submit">
+              Send
+            </button>
+          </form>
+
+          <!-- <form class="modal-forms">
+             <p class="modal-title">Leave your contacts and we will call you back </p>
+              <label class="modal-form-field"><span class="modal-form-input-desc">Name*</span>
               <span class="modal-form-input-wraper">
                 <input
                   class="modal-form-input"
@@ -460,17 +530,11 @@
                   required
                   pattern="^[a-zA-Zа-яіІїЇ]+$"
                   minlength="2"
-                /><span class="modal-form-input-icon"
-                  ><svg
+              
+                  <svg
                     class="modal-form-input-icon-svg1"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g clip-path="url(#clip0_414388_1308)">
-                      <path
-                        d="M9 9C10.6575 9 12 7.6575 12 6C12 4.3425 10.6575 3 9 3C7.3425 3 6 4.3425 6 6C6 7.6575 7.3425 9 9 9ZM9 10.5C6.9975 10.5 3 11.505 3 13.5V14.25C3 14.6625 3.3375 15 3.75 15H14.25C14.6625 15 15 14.6625 15 14.25V13.5C15 11.505 11.0025 10.5 9 10.5Z"
-                      />
-                    </g></svg
-                ></span>
+                   <use href="./images/icons.svg#icon-Vector"></use></svg
+                >  >
               </span>
             </label>
             <label class="modal-form-field">
@@ -530,7 +594,7 @@
               <a href="">Privacy Policy</a>
             </label>
             <button class="button-submit" type="submit">Send</button>
-          </form>
+          </form> -->
         </div>
       </div>
     </footer>
