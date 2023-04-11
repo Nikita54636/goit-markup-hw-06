@@ -693,15 +693,21 @@ ul {
 }
 
 .modal-close {
-  display: block;
   margin-left: auto;
-  background-color: transparent;
-  border: transparent;
+  background-color: #e7e9fc;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .svg-icon1 {
-  height: 24px;
-  width: 24px;
+  height: 8px;
+  width: 8px;
+  display: block;
 }
 
 .menu-list-item1 {
