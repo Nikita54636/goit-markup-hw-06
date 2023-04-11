@@ -1130,7 +1130,7 @@ ul {
   position: relative;
 }
 
-/* .modal-form-icon {
+.modal-form-icon {
   width: 13px;
   height: 12px;
   display: block;
@@ -1139,7 +1139,7 @@ ul {
   top: 50%;
   left: 0;
   margin-left: 16px;
-} */
+}
 
 .booking__input-area {
   outline: none;
